@@ -1,0 +1,132 @@
+/* #*/ export const PERSON = `
+name:
+  first: 何
+  # middle:
+  last: 坤
+
+about:
+  从2015年开始从事前端相关工作;
+  思路清晰，在工作过程中能独立分析并解决问题；
+  对待工作认真、负责，在之前的公司里对业务流程进行了不少改进、优化；
+  为人老实、在公司人际关系良好；
+
+  使用VSCode编辑器，Airbnb风格；
+  模块化编程，喜欢制造轮子；
+  时常制作谷歌浏览器扩展程序来修改喜欢的网站；
+  喜欢国外文化并拥有一定程度的英日双语阅读、交谈能力；
+
+  九型人格为第5的理智型
+  MBTI测试为ISTJ
+  DISC测试为高C低S
+
+position: 前端开发工程师
+
+birth:
+  year: 1991.02
+  location: 广州
+
+experience:
+- company: 广州勇往科技有限公司
+  position: 前端开发工程师
+  timeperiod: 2018.01 - 至今
+  description: 开发与维护小程序：开心消成语、成语大师、猜图达人、挑战王、双双Lite等
+  website: http://www.dolphinlive.net/
+
+- company: 广州云裳定制信息科技有限公司
+  position: 前端开发工程师
+  timeperiod: 2017.02 - 2018.01
+  description: 开发与维护官网PC端、移动端、后台管理系统、小程序等
+  website: http://egaiyi.com/
+
+# education:
+# - degree: Master of Arts
+#   timeperiod: March 2012 - December 2013
+#   description: Major in Hacking and Computer Penetration, University A, New York, USA.
+#   website: https://example.com
+
+# skill level goes 0 to 100
+skills:
+- name: HTML5
+  level: 90
+- name: CSS3
+  level: 90
+- name: Sass
+  level: 80
+- name: JavaScript
+  level: 90
+- name: ECMAScript 2015
+  level: 90
+- name: jQuery
+  level: 90
+- name: Vue.JS
+  level: 80
+- name: Vue-router
+  level: 70
+- name: Vuex
+  level: 60
+- name: Nuxt.js
+  level: 60
+- name: Element-UI
+  level: 80
+- name: 微信小程序
+  level: 90
+- name: Vant Weapp
+  level: 70
+- name: mpvue
+  level: 80
+- name: node.js
+  level: 60
+- name: webpack
+  level: 70
+- name: echarts
+  level: 70
+- name: lodash
+  level: 80
+- name: ESLint
+  level: 90
+- name: Jest
+  level: 60
+- name: Git
+  level: 80
+
+# knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+#   (English and Klingon).
+
+projects:
+- name: 双双Lite
+  platform: 微信小程序
+  description: 仿探探的交友平台，使用技术包含Vant Weapp组件库、状态管理、网易云信、阿里云对象存储等
+  # url: https://github.com/salomonelli/best-resume-ever
+
+- name: 成语大师Lite
+  platform: 微信小程序
+  description: 游戏类小程序，使用技术包含组件化开发、WebSocket、Webpack等
+
+- name: 壁虎淘车
+  platform: 微信小程序
+  description: 商城类小程序
+
+- name: 易改衣
+  platform: 微信小程序
+  description: 商城类小程序
+
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
+
+# contributions:
+# - name: best-resume-ever
+#   description:  Build fast  and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: 376073739@qq.com
+  phone: 135 3987 4489
+  street: 越秀区 建设大马路
+  city: 广州
+  # website: johndoe.com
+  github: gitee.com/kazuki
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: cn
+`
