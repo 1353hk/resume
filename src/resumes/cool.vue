@@ -15,10 +15,8 @@
         <div class="section">
           <div class="section-headline">{{ lang.about }}</div>
 
-          <div class="section-content section-content--plain">
+          <div class="section-content section-content--plain my-plain">
             {{ person.about }}
-            <br>
-            <br>
             {{ person.knowledge }}
           </div>
         </div>
@@ -403,6 +401,10 @@ a {
 .my-picture__img {
   margin-top: -10px;
   width: 100%;
+}
+
+.my-plain {
+  white-space: pre-line;
 }
 
 .my-wrap {
