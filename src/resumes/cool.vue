@@ -69,11 +69,7 @@
               {{ person.contact.linkedin }}
             </a>
             
-            <a
-              v-if="person.contact.github"
-              class="section-link"
-              :href="'https://github.com/' + person.contact.github"
-            >
+            <a v-if="person.contact.github" class="section-link" :href="person.contact.github">
               <i class="section-link__icon fa fa-github"></i>
               {{ person.contact.github }}
             </a>

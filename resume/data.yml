@@ -127,7 +127,7 @@ contact:
   street: 越秀区 建设大马路
   city: 广州
   # website: johndoe.com
-  github: gitee.com/kazuki
+  github: https://gitee.com/kazuki
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: cn
 `
