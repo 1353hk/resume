@@ -15,10 +15,9 @@
         <div class="section">
           <div class="section-headline">{{ lang.about }}</div>
 
-          <div class="section-content section-content--plain my-plain">
-            {{ person.about }}
-            {{ person.knowledge }}
-          </div>
+          <div
+            class="section-content section-content--plain my-plain"
+          >{{ person.about }}{{ person.knowledge }}</div>
         </div>
 
         <div v-if="person.skills" class="section">
