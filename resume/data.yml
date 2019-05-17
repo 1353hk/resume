@@ -62,54 +62,78 @@ experience:
 # skill level goes 0 to 100
 skills:
 - name: HTML5
+  url: http://www.w3school.com.cn/h.asp
   level: 90
 - name: CSS3
+  url: https://developer.mozilla.org/zh-CN/docs/Web/CSS
   level: 90
 - name: Sass
+  url: http://www.css88.com/doc/sass/
   level: 80
 - name: Bootstrap
+  url: http://bs4.ntp.org.cn
   level: 90
 - name: JavaScript
+  url: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
   level: 90
 - name: ECMAScript 2015
+  url: http://es6.ruanyifeng.com/
   level: 90
 - name: jQuery
+  url: http://jquery.cuishifeng.cn/
   level: 90
 - name: Vue.JS
+  url: https://cn.vuejs.org
   level: 80
 - name: Vue-router
+  url: https://router.vuejs.org
   level: 70
 - name: Vuex
+  url: https://vuex.vuejs.org
   level: 60
 - name: Nuxt.js
+  url: https://zh.nuxtjs.org/
   level: 60
 - name: Element-UI
+  url: https://element.eleme.cn
   level: 80
 - name: React
+  url: https://zh-hans.reactjs.org/
   level: 80
 - name: React-router
+  url: https://reacttraining.com/react-router/
   level: 80
 - name: Ant.Design
+  url: https://ant.design
   level: 70
 - name: 微信小程序
+  url: https://developers.weixin.qq.com/miniprogram/dev/
   level: 90
-- name: Vant Weapp
-  level: 70
+# - name: Vant Weapp
+#   level: 70
 - name: mpvue
+  url: http://mpvue.com/
   level: 80
 - name: echarts
+  url: https://echarts.baidu.com
   level: 70
 - name: lodash
+  url: http://lodash.net/
   level: 80
 - name: node.js
+  url: http://nodejs.cn
   level: 60
 - name: webpack
+  url: https://www.webpackjs.com
   level: 70
 - name: ESLint
+  url: https://cn.eslint.org
   level: 90
 - name: Jest
+  url: https://jestjs.io/zh-Hans/
   level: 60
 - name: Git
+  url: https://git-scm.com/book/zh/v2
   level: 80
 
 # knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
@@ -119,7 +143,6 @@ projects:
 - name: 双双Lite
   platform: 微信小程序
   description: 仿探探的交友平台，使用技术包含Vant Weapp组件库、状态管理、网易云信、阿里云对象存储等
-  # url: https://github.com/salomonelli/best-resume-ever
 
 - name: 成语大师Lite
   platform: 微信小程序
@@ -132,6 +155,16 @@ projects:
 - name: 易改衣
   platform: 微信小程序
   description: 商城类小程序
+
+- name: 香港宽频
+  platform: 响应式网站
+  description: https://www.hkbn.net
+  url: https://www.hkbn.net
+
+- name: 易改衣
+  platform: 多端网站
+  description: http://egaiyi.com/
+  url: http://egaiyi.com/
 
 # hobbies:
 # - name: Video Games

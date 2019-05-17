@@ -29,6 +29,7 @@
               class="grid-item"
               :key="index"
               :href="skill.url"
+              target="_balnk"
             >
               <span class="squarred-grid-item">{{ skill.name }}</span>
             </a>
@@ -54,29 +55,41 @@
               {{ person.contact.phone }}
             </div>
 
-            <a v-if="person.contact.website" class="section-link" :href="person.contact.website">
+            <a
+              v-if="person.contact.website"
+              class="section-link"
+              :href="person.contact.website"
+              target="_balnk"
+            >
               <i class="section-link__icon fa fa-globe"></i>
               {{ person.contact.website }}
             </a>
-            
+
             <a
               v-if="person.contact.linkedin"
               class="section-link"
               :href="'https://linkedin.com/in/' + person.contact.linkedin"
+              target="_balnk"
             >
               <i class="section-link__icon fa fa-linkedin"></i>
               {{ person.contact.linkedin }}
             </a>
-            
-            <a v-if="person.contact.github" class="section-link" :href="person.contact.github">
+
+            <a
+              v-if="person.contact.github"
+              class="section-link"
+              :href="person.contact.github"
+              target="_balnk"
+            >
               <i class="section-link__icon fa fa-github"></i>
               {{ person.contact.github }}
             </a>
-            
+
             <a
               v-if="person.contact.medium"
               class="section-link"
               :href="'https://medium.com/@' + person.contact.medium"
+              target="_balnk"
             >
               <i class="section-link__icon fa fa-medium"></i>
               {{ person.contact.medium }}
@@ -98,6 +111,7 @@
               :key="index"
               class="section-content__item"
               :href="experience.website"
+              target="_balnk"
             >
               <span class="section-content__header">{{ experience.position }}</span>
               <span class="section-content__subheader">
@@ -125,6 +139,7 @@
               class="section-content__item"
               :key="index"
               :href="education.website"
+              target="_balnk"
             >
               <span class="section-content__header">{{ education.school }}</span>
               <span class="section-content__subheader">{{ education.degree }}</span>
@@ -146,15 +161,13 @@
               :key="index"
               class="section-content__item-grid my-wrap"
               :href="project.url"
+              target="_balnk"
             >
               <span class="section-content__header">{{ project.name }}</span>
               <span class="section-content__subheader">{{ project.platform }}</span>
               <span class="section-content__text">{{ project.description }}</span>
-              
-              <img class="my-logo" src="../../resume/双双Lite.jpg" v-if="index===0">
-              <img class="my-logo" src="../../resume/成语大师Lite.jpg" v-if="index===1">
-              <img class="my-logo" src="../../resume/壁虎淘车.jpg" v-if="index===2">
-              <img class="my-logo" src="../../resume/易改衣.jpg" v-if="index===3">
+
+              <img class="my-logo" :src="imgs[index]">
             </a>
           </div>
         </div>
@@ -171,6 +184,7 @@
               class="section-content__item-grid"
               :key="index"
               :href="contribution.url"
+              target="_balnk"
             >
               <span class="section-content__header">{{ contribution.name }}</span>
               <span class="section-content__text">{{ contribution.description }}</span>
@@ -407,10 +421,11 @@ a {
   flex: 50%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-bottom: 10px;
 }
 .my-logo {
   margin-top: auto;
-  width: 100%;
+  width: 60%;
 }
 </style>
