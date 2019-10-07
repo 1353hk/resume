@@ -422,7 +422,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .my-logo {
   margin-top: auto;

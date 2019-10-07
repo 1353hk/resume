@@ -21,9 +21,9 @@ about:
 
   对待工作认真、负责，在之前的公司里对业务流程进行了不少改进、优化；
 
-  为人老实、在公司人际关系良好；
-
   喜欢国外文化并拥有一定程度的英日双语阅读、交谈能力；
+
+  # 为人老实、在公司人际关系良好；
 
   # 九型人格为第5的理智型
 
@@ -47,7 +47,7 @@ experience:
   timeperiod: 2018.01 - 至今
   # timeperiod: 2018.01 - 2018.12
   description: 开发与维护小程序：开心消成语、成语大师、猜图达人、挑战王、双双Lite等
-  website: http://www.dolphinlive.net/
+  website: http://wonder.wiki/
 
 - company: 广州云裳定制信息科技有限公司
   timeperiod: 2017.02 - 2018.01
@@ -63,49 +63,67 @@ experience:
 # skill level goes 0 to 100
 skills:
 - name: HTML5
-  url: http://www.w3school.com.cn/h.asp
+  url: http://www.w3school.com.cn/h.asp/
   level: 90
 - name: CSS3
-  url: https://developer.mozilla.org/zh-CN/docs/Web/CSS
+  url: https://developer.mozilla.org/zh-CN/docs/Web/CSS/
   level: 90
 - name: Sass
   url: http://www.css88.com/doc/sass/
   level: 80
 - name: Bootstrap
-  url: http://bs4.ntp.org.cn
+  url: http://bs4.ntp.org.cn/
   level: 90
 - name: JavaScript
-  url: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+  url: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/
   level: 90
-- name: ECMAScript 2015
+- name: es6
   url: http://es6.ruanyifeng.com/
   level: 90
+- name: Lodash
+  url: http://lodash.net/
+  level: 70
 - name: jQuery
   url: http://jquery.cuishifeng.cn/
   level: 90
 - name: Vue.JS
-  url: https://cn.vuejs.org
+  url: https://cn.vuejs.org/
   level: 80
 - name: Vue-router
-  url: https://router.vuejs.org
+  url: https://router.vuejs.org/
   level: 70
 - name: Vuex
-  url: https://vuex.vuejs.org
+  url: https://vuex.vuejs.org/
   level: 60
 - name: Nuxt.js
   url: https://zh.nuxtjs.org/
   level: 60
 - name: Element-UI
-  url: https://element.eleme.cn
+  url: https://element.eleme.cn/
   level: 80
 - name: React
   url: https://zh-hans.reactjs.org/
   level: 80
 - name: React-router
   url: https://reacttraining.com/react-router/
-  level: 80
+  level: 70
+- name: Redux
+  url: http://cn.redux.js.org/
+  level: 70
+- name: redux-saga
+  url: https://redux-saga-in-chinese.js.org/
+  level: 70
+- name: DvaJS
+  url: https://dvajs.com/
+  level: 70
+- name: Next.js
+  url: https://nextjs.frontendx.cn/
+  level: 60
+- name: UmiJS
+  url: https://umijs.org/zh/
+  level: 60
 - name: Ant.Design
-  url: https://ant.design
+  url: https://ant.design/
   level: 70
 - name: 微信小程序
   url: https://developers.weixin.qq.com/miniprogram/dev/
@@ -116,38 +134,42 @@ skills:
   url: http://mpvue.com/
   level: 80
 - name: echarts
-  url: https://echarts.baidu.com
+  url: https://echarts.baidu.com/
   level: 70
 - name: lodash
   url: http://lodash.net/
   level: 80
 - name: node.js
-  url: http://nodejs.cn
+  url: http://nodejs.cn/
   level: 60
 - name: webpack
-  url: https://www.webpackjs.com
+  url: https://www.webpackjs.com/
   level: 70
-- name: ESLint
-  url: https://cn.eslint.org
-  level: 90
-- name: Jest
-  url: https://jestjs.io/zh-Hans/
-  level: 60
-- name: Git
-  url: https://git-scm.com/book/zh/v2
-  level: 80
+# - name: ESLint
+#   url: https://cn.eslint.org/
+#   level: 90
+# - name: Jest
+#   url: https://jestjs.io/zh-Hans/
+#   level: 60
+# - name: Git
+#   url: https://git-scm.com/book/zh/v2/
+#   level: 80
 
 # knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
 #   (English and Klingon).
 
 projects:
-- name: 双双Lite
+# - name: 双双Lite
+#   platform: 微信小程序
+#   description: 仿探探的交友平台，使用技术包含Vant Weapp组件库、状态管理、网易云信、阿里云对象存储等
+
+- name: 猜歌达人
   platform: 微信小程序
-  description: 仿探探的交友平台，使用技术包含Vant Weapp组件库、状态管理、网易云信、阿里云对象存储等
+  description: 游戏类小程序
 
 - name: 成语大师Lite
   platform: 微信小程序
-  description: 游戏类小程序，使用技术包含自定义组件、WebSocket、Webpack等
+  description: 游戏类小程序
 
 - name: 壁虎淘车
   platform: 微信小程序
@@ -159,8 +181,8 @@ projects:
 
 - name: 香港宽频
   platform: 响应式网站
-  description: https://www.hkbn.net
-  url: https://www.hkbn.net
+  description: https://www.hkbn.net/
+  url: https://www.hkbn.net/
 
 - name: 易改衣
   platform: 多端网站
