@@ -1,57 +1,57 @@
 /* #*/ export const PERSON = `
 name:
-  first: ºÎ
+  first: ä½•
   # middle:
-  last: À¤
+  last: å¤
 
 about:
-  ´Ó2015Äê¿ªÊ¼´ÓÊÂÇ°¶ËÏà¹Ø¹¤×÷£»
+  ä»2015å¹´å¼€å§‹ä»äº‹å‰ç«¯ç›¸å…³å·¥ä½œï¼›
 
-  Ä£¿é»¯±à³Ì£¬Ï²»¶ÖÆÔìÂÖ×Ó£»
+  æ¨¡å—åŒ–ç¼–ç¨‹ï¼Œå–œæ¬¢åˆ¶é€ è½®å­ï¼›
 
-  Ê¹ÓÃVSCode±à¼­Æ÷£¬·ç¸ñÎªAirbnb£»
+  ä½¿ç”¨VSCodeç¼–è¾‘å™¨ï¼Œé£æ ¼ä¸ºAirbnbï¼›
 
-  Ê±³£»áÖÆ×÷¹È¸èä¯ÀÀÆ÷²å¼şÀ´ĞŞ¸ÄÏ²»¶µÄÍøÕ¾£»
+  æ—¶å¸¸ä¼šåˆ¶ä½œè°·æ­Œæµè§ˆå™¨æ’ä»¶æ¥ä¿®æ”¹å–œæ¬¢çš„ç½‘ç«™ï¼›
 
-  Ê±³£±àĞ´Node³ÌĞòÅÀÍøÕ¾»ñÈ¡ĞÅÏ¢£»
+  æ—¶å¸¸ç¼–å†™Nodeç¨‹åºçˆ¬ç½‘ç«™è·å–ä¿¡æ¯ï¼›
 
-  ¾ß±¸ÓÅĞãµÄÑ§Ï°Ğ§ÂÊ£¬¶Ô½«À´µÄ·¢Õ¹Â·Ïß·Ç³£Ã÷È·£»
+  å…·å¤‡ä¼˜ç§€çš„å­¦ä¹ æ•ˆç‡ï¼Œå¯¹å°†æ¥çš„å‘å±•è·¯çº¿éå¸¸æ˜ç¡®ï¼›
 
-  Ë¼Â·ÇåÎú£¬ÔÚ¹¤×÷¹ı³ÌÖĞÄÜ¶ÀÁ¢·ÖÎö²¢½â¾öÎÊÌâ£»
+  æ€è·¯æ¸…æ™°ï¼Œåœ¨å·¥ä½œè¿‡ç¨‹ä¸­èƒ½ç‹¬ç«‹åˆ†æå¹¶è§£å†³é—®é¢˜ï¼›
 
-  ¶Ô´ı¹¤×÷ÈÏÕæ¡¢¸ºÔğ£¬ÔÚÖ®Ç°µÄ¹«Ë¾Àï¶ÔÒµÎñÁ÷³Ì½øĞĞÁË²»ÉÙ¸Ä½ø¡¢ÓÅ»¯£»
+  å¯¹å¾…å·¥ä½œè®¤çœŸã€è´Ÿè´£ï¼Œåœ¨ä¹‹å‰çš„å…¬å¸é‡Œå¯¹ä¸šåŠ¡æµç¨‹è¿›è¡Œäº†ä¸å°‘æ”¹è¿›ã€ä¼˜åŒ–ï¼›
 
-  Ï²»¶¹úÍâÎÄ»¯²¢ÓµÓĞÒ»¶¨³Ì¶ÈµÄÓ¢ÈÕË«ÓïÔÄ¶Á¡¢½»Ì¸ÄÜÁ¦£»
+  å–œæ¬¢å›½å¤–æ–‡åŒ–å¹¶æ‹¥æœ‰ä¸€å®šç¨‹åº¦çš„è‹±æ—¥åŒè¯­é˜…è¯»ã€äº¤è°ˆèƒ½åŠ›ï¼›
 
-  # ÎªÈËÀÏÊµ¡¢ÔÚ¹«Ë¾ÈË¼Ê¹ØÏµÁ¼ºÃ£»
+  # ä¸ºäººè€å®ã€åœ¨å…¬å¸äººé™…å…³ç³»è‰¯å¥½ï¼›
 
-  # ¾ÅĞÍÈË¸ñÎªµÚ5µÄÀíÖÇĞÍ
+  # ä¹å‹äººæ ¼ä¸ºç¬¬5çš„ç†æ™ºå‹
 
-  # MBTI²âÊÔÎªISTJ
+  # MBTIæµ‹è¯•ä¸ºISTJ
 
-  # DISC²âÊÔÎª¸ßCµÍS
+  # DISCæµ‹è¯•ä¸ºé«˜Cä½S
 
-position: Ç°¶Ë¿ª·¢¹¤³ÌÊ¦
+position: å‰ç«¯å¼€å‘å·¥ç¨‹å¸ˆ
 
 birth:
   year: 1991.02
-  location: ¹ãÖİ
+  location: å¹¿å·
 
 experience:
-# - company: ¹ãÖİ³Çµç
-#   timeperiod: 2018.12 - ÖÁ½ñ
-#   description: ¿ª·¢ÓëÎ¬»¤¹ÙÍø¡¢ºóÌ¨¹ÜÀíÏµÍ³
+# - company: å¹¿å·åŸç”µ
+#   timeperiod: 2018.12 - è‡³ä»Š
+#   description: å¼€å‘ä¸ç»´æŠ¤å®˜ç½‘ã€åå°ç®¡ç†ç³»ç»Ÿ
 #   website: https://www.hkbn.net/personal/home/tc/landing
 
-- company: ¹ãÖİÓÂÍù¿Æ¼¼ÓĞÏŞ¹«Ë¾
-  timeperiod: 2018.01 - ÖÁ½ñ
+- company: å¹¿å·å‹‡å¾€ç§‘æŠ€æœ‰é™å…¬å¸
+  timeperiod: 2018.01 - è‡³ä»Š
   # timeperiod: 2018.01 - 2018.12
-  description: ¿ª·¢ÓëÎ¬»¤Ğ¡³ÌĞò£º¿ªĞÄÏû³ÉÓï¡¢³ÉÓï´óÊ¦¡¢²ÂÍ¼´ïÈË¡¢ÌôÕ½Íõ¡¢Ë«Ë«LiteµÈ
+  description: å¼€å‘ä¸ç»´æŠ¤å°ç¨‹åºï¼šå¼€å¿ƒæ¶ˆæˆè¯­ã€æˆè¯­å¤§å¸ˆã€çŒœå›¾è¾¾äººã€æŒ‘æˆ˜ç‹ã€åŒåŒLiteç­‰
   website: http://wonder.wiki/
 
-- company: ¹ãÖİÔÆÉÑ¶¨ÖÆĞÅÏ¢¿Æ¼¼ÓĞÏŞ¹«Ë¾
+- company: å¹¿å·äº‘è£³å®šåˆ¶ä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸
   timeperiod: 2017.02 - 2018.01
-  description: ¿ª·¢ÓëÎ¬»¤¹ÙÍøPC¶Ë¡¢ÒÆ¶¯¶Ë¡¢ºóÌ¨¹ÜÀíÏµÍ³¡¢Ğ¡³ÌĞòµÈ
+  description: å¼€å‘ä¸ç»´æŠ¤å®˜ç½‘PCç«¯ã€ç§»åŠ¨ç«¯ã€åå°ç®¡ç†ç³»ç»Ÿã€å°ç¨‹åºç­‰
   website: http://egaiyi.com/
 
 # education:
@@ -80,6 +80,9 @@ skills:
 - name: ECMAScript 2015-2019
   url: http://es6.ruanyifeng.com/
   level: 90
+- name: TypeScript
+  url: https://zhongsp.gitbook.io/
+  level: 60
 - name: Lodash
   url: http://lodash.net/
   level: 70
@@ -125,7 +128,7 @@ skills:
 - name: Ant.Design
   url: https://ant.design/
   level: 70
-- name: Î¢ĞÅĞ¡³ÌĞò
+- name: å¾®ä¿¡å°ç¨‹åº
   url: https://developers.weixin.qq.com/miniprogram/dev/
   level: 90
 # - name: Vant Weapp
@@ -165,33 +168,33 @@ skills:
 #   (English and Klingon).
 
 projects:
-# - name: Ë«Ë«Lite
-#   platform: Î¢ĞÅĞ¡³ÌĞò
-#   description: ·ÂÌ½Ì½µÄ½»ÓÑÆ½Ì¨£¬Ê¹ÓÃ¼¼Êõ°üº¬Vant Weapp×é¼ş¿â¡¢×´Ì¬¹ÜÀí¡¢ÍøÒ×ÔÆĞÅ¡¢°¢ÀïÔÆ¶ÔÏó´æ´¢µÈ
+# - name: åŒåŒLite
+#   platform: å¾®ä¿¡å°ç¨‹åº
+#   description: ä»¿æ¢æ¢çš„äº¤å‹å¹³å°ï¼Œä½¿ç”¨æŠ€æœ¯åŒ…å«Vant Weappç»„ä»¶åº“ã€çŠ¶æ€ç®¡ç†ã€ç½‘æ˜“äº‘ä¿¡ã€é˜¿é‡Œäº‘å¯¹è±¡å­˜å‚¨ç­‰
 
-- name: ²Â¸è´ïÈË
-  platform: Î¢ĞÅĞ¡³ÌĞò
-  description: ÓÎÏ·ÀàĞ¡³ÌĞò
+- name: çŒœæ­Œè¾¾äºº
+  platform: å¾®ä¿¡å°ç¨‹åº
+  description: æ¸¸æˆç±»å°ç¨‹åº
 
-- name: ³ÉÓï´óÊ¦Lite
-  platform: Î¢ĞÅĞ¡³ÌĞò
-  description: ÓÎÏ·ÀàĞ¡³ÌĞò
+- name: æˆè¯­å¤§å¸ˆLite
+  platform: å¾®ä¿¡å°ç¨‹åº
+  description: æ¸¸æˆç±»å°ç¨‹åº
 
-- name: ±Ú»¢ÌÔ³µ
-  platform: Î¢ĞÅĞ¡³ÌĞò
-  description: ÉÌ³ÇÀàĞ¡³ÌĞò
+- name: å£è™æ·˜è½¦
+  platform: å¾®ä¿¡å°ç¨‹åº
+  description: å•†åŸç±»å°ç¨‹åº
 
-- name: Ò×¸ÄÒÂ
-  platform: Î¢ĞÅĞ¡³ÌĞò
-  description: ÉÌ³ÇÀàĞ¡³ÌĞò
+- name: æ˜“æ”¹è¡£
+  platform: å¾®ä¿¡å°ç¨‹åº
+  description: å•†åŸç±»å°ç¨‹åº
 
-- name: Ïã¸Û¿íÆµ
-  platform: ÏìÓ¦Ê½ÍøÕ¾
+- name: é¦™æ¸¯å®½é¢‘
+  platform: å“åº”å¼ç½‘ç«™
   description: https://www.hkbn.net/
   url: https://www.hkbn.net/
 
-- name: Ò×¸ÄÒÂ
-  platform: ¶à¶ËÍøÕ¾
+- name: æ˜“æ”¹è¡£
+  platform: å¤šç«¯ç½‘ç«™
   description: http://egaiyi.com/
   url: http://egaiyi.com/
 
@@ -208,8 +211,8 @@ projects:
 contact:
   email: 376073739@qq.com
   phone: 135 3987 4489
-  street: Ô½ĞãÇø ½¨Éè´óÂíÂ·
-  city: ¹ãÖİ
+  street: è¶Šç§€åŒº å»ºè®¾å¤§é©¬è·¯
+  city: å¹¿å·
   # website: johndoe.com
   github: https://gitee.com/kazuki
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
