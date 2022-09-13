@@ -38,21 +38,25 @@ birth:
   location: 广州
 
 experience:
+- company: 广州予康网络科技有限公司
+  timeperiod: 2020.06 - 至今
+  description: 开发诸多小程序、移动H5页面、中台管理系统
+  website: https://www.yocone.com/home/
+
 # - company: 广州城电
-#   timeperiod: 2018.12 - 至今
+#   timeperiod: 2019.01 - 2020.05
 #   description: 开发与维护官网、后台管理系统
 #   website: https://www.hkbn.net/personal/home/tc/landing
 
-- company: 广州勇往科技有限公司
-  timeperiod: 2018.01 - 至今
-  # timeperiod: 2018.01 - 2018.12
-  description: 开发与维护小程序：开心消成语、成语大师、猜图达人、挑战王、双双Lite等
-  website: http://wonder.wiki/
+# - company: 广州勇往科技有限公司
+#   timeperiod: 2018.01 - 2018.12
+#   description: 开发与维护小程序：开心消成语、成语大师、猜图达人、挑战王、双双Lite等
+#   website: http://wonder.wiki/
 
-- company: 广州云裳定制信息科技有限公司
-  timeperiod: 2017.02 - 2018.01
-  description: 开发与维护官网PC端、移动端、后台管理系统、小程序等
-  website: http://egaiyi.com/
+# - company: 广州云裳定制信息科技有限公司
+#   timeperiod: 2017.02 - 2018.01
+#   description: 开发与维护官网PC端、移动端、后台管理系统、小程序等
+#   website: http://egaiyi.com/
 
 # education:
 # - degree: Master of Arts
@@ -82,7 +86,7 @@ skills:
   level: 90
 - name: TypeScript
   url: https://zhongsp.gitbook.io/
-  level: 60
+  level: 90
 - name: Lodash
   url: http://lodash.net/
   level: 70
@@ -97,10 +101,10 @@ skills:
 #   level: 70
 # - name: Vuex
 #   url: https://vuex.vuejs.org/
-#   level: 60
+#   level: 70
 - name: Nuxt.js
   url: https://zh.nuxtjs.org/
-  level: 60
+  level: 70
 - name: Element-UI
   url: https://element.eleme.cn/
   level: 80
@@ -124,7 +128,7 @@ skills:
 #   level: 60
 - name: UmiJS
   url: https://umijs.org/zh/
-  level: 60
+  level: 70
 - name: Ant.Design
   url: https://ant.design/
   level: 70
@@ -147,7 +151,7 @@ skills:
   level: 70
 - name: node.js
   url: http://nodejs.cn/
-  level: 60
+  level: 70
 - name: Egg.js
   url: https://eggjs.org/zh-cn/
   level: 60
@@ -159,7 +163,7 @@ skills:
   level: 90
 - name: Jest
   url: https://jestjs.io/zh-Hans/
-  level: 60
+  level: 70
 - name: Git
   url: https://git-scm.com/book/zh/v2/
   level: 80
@@ -168,6 +172,10 @@ skills:
 #   (English and Klingon).
 
 projects:
+# - name: 2856mall
+#   platform: 微信小程序
+#   description: 商城类小程序
+
 # - name: 双双Lite
 #   platform: 微信小程序
 #   description: 仿探探的交友平台，使用技术包含Vant Weapp组件库、状态管理、网易云信、阿里云对象存储等
