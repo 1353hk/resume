@@ -5,31 +5,20 @@ name:
   last: 坤
 
 about:
-  从2015年开始从事前端相关工作；
+  从2015年开始从事前端相关工作
+  开发过诸多官网、商城、限时活动、H5游戏、移动客户端、管理系统等
+  使用VSCode编辑器，风格为Airbnb
+  时常会制作谷歌浏览器插件来修改喜欢的网站
+  时常编写Node程序操作本地文件、爬取网站信息等工具
 
-  模块化编程，喜欢制造轮子；
+  具备优秀的学习效率、逻辑清晰、注释明确、拥有独立解决问题的能力
+  喜欢国外文化并拥有一定程度的英日双语阅读、交谈能力
 
-  使用VSCode编辑器，风格为Airbnb；
+  九型人格为第5的理智型
+  MBTI测试为ISTJ
+  DISC测试为高C低S
 
-  时常会制作谷歌浏览器插件来修改喜欢的网站；
-
-  时常编写Node程序爬网站获取信息；
-
-  具备优秀的学习效率，对将来的发展路线非常明确；
-
-  思路清晰，在工作过程中能独立分析并解决问题；
-
-  对待工作认真、负责，在之前的公司里对业务流程进行了不少改进、优化；
-
-  喜欢国外文化并拥有一定程度的英日双语阅读、交谈能力；
-
-  # 为人老实、在公司人际关系良好；
-
-  # 九型人格为第5的理智型
-
-  # MBTI测试为ISTJ
-
-  # DISC测试为高C低S
+  开源工具组件：https://gitee.com/kazuki/web
 
 position: 前端开发工程师
 
@@ -172,9 +161,9 @@ skills:
 #   (English and Klingon).
 
 projects:
-# - name: 2856mall
-#   platform: 微信小程序
-#   description: 商城类小程序
+- name: 2856mall
+  platform: 微信小程序
+  description: 商城类小程序
 
 # - name: 双双Lite
 #   platform: 微信小程序
@@ -188,9 +177,9 @@ projects:
   platform: 微信小程序
   description: 游戏类小程序
 
-- name: 壁虎淘车
-  platform: 微信小程序
-  description: 商城类小程序
+# - name: 壁虎淘车
+#   platform: 微信小程序
+#   description: 商城类小程序
 
 - name: 易改衣
   platform: 微信小程序
